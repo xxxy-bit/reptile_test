@@ -24,7 +24,7 @@ def select_book(url):
 
 if __name__ == "__main__":
     url = 'https://book.douban.com/top250?start={}'
-    urls = [url.format(i*25) for i in range(10)]
+    urls = [url.format(i*25) for i in range(10)] 
 
     for i in urls:
         print(select_book(i))
