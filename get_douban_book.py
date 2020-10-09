@@ -34,5 +34,5 @@ if __name__ == "__main__":
             print(text + " : " + link)
 
         time.sleep(1)
-            
+
     wb.save('豆瓣书籍前250.xlsx')
