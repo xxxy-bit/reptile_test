@@ -1,6 +1,8 @@
 '''
+
 授权码：whjoqkoyihukbead
 SMTP服务器地址：smtp.qq.com
+
 '''
 
 import yagmail
