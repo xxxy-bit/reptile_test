@@ -1,6 +1,6 @@
 '''
 
-授权码：whjoqkoyihukbead
+授权码：在QQ邮箱设置→账号中查找
 SMTP服务器地址：smtp.qq.com
 
 '''
@@ -8,7 +8,7 @@ SMTP服务器地址：smtp.qq.com
 import yagmail
 
 user='785815707@qq.com'     # 发送人的邮箱
-password='whjoqkoyihukbead' # 发送人的授权码
+password='XXXXXX' # 发送人的授权码
 host='smtp.qq.com'          # 发送人的SMTP服务器地址
 yag = yagmail.SMTP(user=user, password=password, host=host)
 
